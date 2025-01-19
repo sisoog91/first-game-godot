@@ -1,0 +1,14 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# Ignorar los archivos generados por Godot
+/.import/
+*.godot
+export.cfg
+
+# Ignorar los directorios de configuración del editor
+.vscode/
+.idea/
+
+# Ignorar archivos temporales del sistema
+*.swp
