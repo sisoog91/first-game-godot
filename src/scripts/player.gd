@@ -23,8 +23,7 @@ func _process(delta):
 		velocity = velocity.normalized() * speed
 		$AnimatedSprite2D.play()
 	else:
-		$AnimatedSprite2D.animation = "idle"
-		$AnimatedSprite2D.play()
+		$AnimatedSprite2D.stop()
 		
 	position += velocity * delta
 	position = position.clamp(Vector2.ZERO, screen_size)
@@ -41,7 +40,7 @@ func _process(delta):
 	
 
 
-func _on_body_entered(body: Node2D) -> void:
+func _on_body_entered(body):
 	hide()
 	hit.emit()
 	$CollisionShape2D.set_deferred("disabled", true)

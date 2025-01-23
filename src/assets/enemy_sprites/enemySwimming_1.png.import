@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjinvym4bnbwp"
-path="res://.godot/imported/character_idle.png-bdb79da98f2e5b6cc9d75542130a4a16.ctex"
+uid="uid://yob7gmox4yhq"
+path="res://.godot/imported/enemySwimming_1.png-b0eacc10c12e13c37abdfe74a0ac60de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/assets/character_sprites/character_idle.png"
-dest_files=["res://.godot/imported/character_idle.png-bdb79da98f2e5b6cc9d75542130a4a16.ctex"]
+source_file="res://src/assets/enemy_sprites/enemySwimming_1.png"
+dest_files=["res://.godot/imported/enemySwimming_1.png-b0eacc10c12e13c37abdfe74a0ac60de.ctex"]
 
 [params]
 
